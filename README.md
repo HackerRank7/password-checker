@@ -1,3 +1,7 @@
+Here is the complete project documentation in English, structured and formatted for a GitHub `README.md` or technical guide:
+
+---
+
 # Password Strength Checker - Project Documentation
 
 ## 📌 Project Overview
@@ -131,13 +135,39 @@ Keep these points in mind to make your password strong:
 
 ---
 
-## 🚀 Key Advantages
+🛠️ Installation & Usage Guide
+Prerequisites
+Make sure you have Python 3.x installed on your system. You can verify this by running:
 
-* **Better User Experience:** Gives users a full picture of their password strength rather than confusing them with partial feedback.
-* **Standardized Feedback:** Uses plain, consistent English suitable for international projects.
-* **Zero Dependencies:** Runs natively on Python 3 without requiring external libraries or packages.
+```Bash
+python --version
+```
+1. Download or Clone the Repository
+Using Git:
 
----
+```Bash
+git clone [https://github.com/HackerRank/password-checker.git](https://github.com/HackerRank/password-checker.git)
+cd password-checker
+```
 
-## Author
-- Gaurav Bharty
+2. Run the Script
+Navigate to the project directory in your terminal or command prompt and execute:
+
+```Bash
+python password_checker.py
+```
+(On macOS/Linux, use python3 password_checker.py if needed)
+
+🚀 Key Advantages
+User-Centric Feedback: Shows what rules you satisfied alongside what needs fixing.
+
+Lightweight & Fast: Executes instantly with zero external package dependencies.
+
+Clean & Modular Code: Easy to read, maintain, or integrate into web apps (Flask/Django).
+
+## 👤 Author
+Gaurav Bharty
+
+
+## 📜 License
+This project is open-source and available under the MIT License.

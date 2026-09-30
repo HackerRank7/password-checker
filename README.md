@@ -146,7 +146,7 @@ python --version
 Using Git:
 
 ```Bash
-git clone [https://github.com/HackerRank7/password-checker.git](https://github.com/HackerRank7/password-checker.git)
+git clone https://github.com/HackerRank7/password-checker.git
 cd password-checker
 ```
 

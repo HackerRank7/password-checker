@@ -166,7 +166,7 @@ Lightweight & Fast: Executes instantly with zero external package dependencies.
 Clean & Modular Code: Easy to read, maintain, or integrate into web apps (Flask/Django).
 
 ## 👤 Author
-Gaurav Bharty
+- Gaurav Bharty
 
 
 ## 📜 License

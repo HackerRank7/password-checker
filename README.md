@@ -154,7 +154,7 @@ cd password-checker
 Navigate to the project directory in your terminal or command prompt and execute:
 
 ```Bash
-python password_checker.py
+python password\ check.py
 ```
 (On macOS/Linux, use python3 password_checker.py if needed)
 

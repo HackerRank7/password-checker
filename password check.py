@@ -7,37 +7,37 @@ def check_password_strength(password):
     # 1. Length check
     if len(password) >= 8:
         score += 1
-        all_rules_feedback.append("✅ Must be at least 8 characters long.")
+        all_rules_feedback.append("✔ Must be at least 8 characters long.")
     else:
-        all_rules_feedback.append("❌ Must be at least 8 characters long.")
+        all_rules_feedback.append("✗ Must be at least 8 characters long.")
 
     # 2. Uppercase letter check
     if re.search(r"[A-Z]", password):
         score += 1
-        all_rules_feedback.append("✅ Must contain at least one uppercase letter (A-Z).")
+        all_rules_feedback.append("✔ Must contain at least one uppercase letter (A-Z).")
     else:
-        all_rules_feedback.append("❌ Must contain at least one uppercase letter (A-Z).")
+        all_rules_feedback.append("✗ Must contain at least one uppercase letter (A-Z).")
 
     # 3. Lowercase letter check
     if re.search(r"[a-z]", password):
         score += 1
-        all_rules_feedback.append("✅ Must contain at least one lowercase letter (a-z).")
+        all_rules_feedback.append("✔ Must contain at least one lowercase letter (a-z).")
     else:
-        all_rules_feedback.append("❌ Must contain at least one lowercase letter (a-z).")
+        all_rules_feedback.append("✗ Must contain at least one lowercase letter (a-z).")
 
     # 4. Number check
     if re.search(r"\d", password):
         score += 1
-        all_rules_feedback.append("✅ Must contain at least one number (0-9).")
+        all_rules_feedback.append("✔ Must contain at least one number (0-9).")
     else:
-        all_rules_feedback.append("❌ Must contain at least one number (0-9).")
+        all_rules_feedback.append("✗ Must contain at least one number (0-9).")
 
     # 5. Special character check
     if re.search(r"[@$!%*?&#^_-]", password):
         score += 1
-        all_rules_feedback.append("✅ Must contain at least one special character (e.g., @, $, !, %, *, ?).")
+        all_rules_feedback.append("✔ Must contain at least one special character (e.g., @, $, !, %, *, ?).")
     else:
-        all_rules_feedback.append("❌ Must contain at least one special character (e.g., @, $, !, %, *, ?).")
+        all_rules_feedback.append("✗ Must contain at least one special character (e.g., @, $, !, %, *, ?).")
 
     # Strength decide karna
     if score == 5:
@@ -64,4 +64,4 @@ if __name__ == "__main__":
         for rule in feedback_list:
             print(rule)
     else:
-        print("\n✅ Excellent! Your password is very secure.")
+        print("\n✔ Excellent! Your password is very secure.")
